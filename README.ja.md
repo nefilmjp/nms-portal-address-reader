@@ -13,7 +13,7 @@ OpenCVを使用してスクリーンショットからポータルアドレス�
 
 ## 使用方法
 
-- `config.ini.sample` を `config.ini` としてコピーする
+- `config.sample.ini` を `config.ini` としてコピーする
 - OSに `OpenCV` ・ `Python` ・ `pipenv` をインストールする
     - Debian/Ubuntuの場合OpenCVは `libopencv-dev` パッケージを使用する
 - `pipenv install` で依存関係をインストールする

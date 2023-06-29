@@ -13,7 +13,7 @@ Read portal address from screenshot with OpenCV and Python.
 
 ## Usage
 
-- Copy `config.ini.sample` as `config.ini`
+- Copy `config.sample.ini` as `config.ini`
 - Install `OpenCV` , `Python` and `pipenv` on your OS
     - For Debian/Ubuntu, use `libopencv-dev` package for OpenCV
 - Install the dependencies with `pipenv install`
