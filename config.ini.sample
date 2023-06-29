@@ -1,0 +1,18 @@
+[DEFAULT]
+screenshotsGlob = ./screenshots/*.jpg
+resultImage = result.jpg
+standard = glyphs.png
+
+addrPosX = 11
+addrPosY = 1015
+glyphWidth = 32
+glyphHeight = 32
+glyphMultiplier = 10
+
+claheValueThreshold = 60
+claheClipLimit = 2.0
+claheTileGridSizeX = 8
+claheTileGridSizeY = 8
+
+bfmDistance = 0.95
+bfmLengthLimit = 25
