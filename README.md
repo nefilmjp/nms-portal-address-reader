@@ -2,10 +2,11 @@
 
 **English** | [日本語](README.ja.md)
 
-Read portal address from screenshot with OpenCV and Python.
+Recognize portal glyphs from the screenshot with OpenCV and Python.
 
 - Currently unstable
-- Supports a resolution of 1920x1080
+- Support resolutions:
+    - 1920x1080, 1920x1200, 1920x1440, 2048x1536, 2560x1440, 2560x1600, 3840x2160, (1280x720)
 - Output the following:
     - Array of portal number
     - 12-digit hex (for Portal Glyph Font)

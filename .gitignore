@@ -1,3 +1,5 @@
+.temp
 config.ini
 result.txt
 *.jpg
+__pycache__
