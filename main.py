@@ -35,7 +35,8 @@ def main():
             thumbs.append(std_thumbs[glyph_num - 1])
 
         # thumb_ss = utils.crop_address(ss)
-        thumb_ss = cv2.resize(utils.crop_address(ss, resolution), (32 * 12, 32))
+        # thumb_ss = cv2.resize(utils.crop_address(ss, resolution), (32 * 12, 32))
+        thumb_ss = cv2.resize(utils.get_thumb_ss(ss, resolution), (32 * 12, 32))
         thumb_glyph = cv2.hconcat(thumbs)
         thumb_parts.append(thumb_ss)
         thumb_parts.append(thumb_glyph)
